@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths || Make it Easy</title>
+</head>
+<body>
+    <script>
+        var s_r = prompt("What do you want to find: SQUARE || SQUARE-ROOT")
+        var val =+ prompt("Enter Number to Find "+s_r)
+        if(s_r == "square"){
+            var func = "square"
+        }
+        else if(s_r == "square-root"){
+            var func = "square-root"
+        }
+        else{
+            alert("You can only enter SQUARE and SQUARE-ROOT in this prompt")
+        }
+        if(func == "square"){
+            alert("Square of "+val+" is equal to "+val*val)
+        }
+        else if(func == "square-root"){
+            alert("The Square Root of "+val+" is Equal To "+Math.sqrt(val))
+        }
+    </script>
+</body>
+</html>
